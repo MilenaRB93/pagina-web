@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+H1 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header { 
+    height: 50px;
+    width: 100%;
+    background-color: black;;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.slider-container {
+    scroll-snap-type: x mandatory;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    overflow-x: scroll;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  }
+
+nav li {
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+
+nav li img {
+    margin: 0.5em 1em 0 0;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    text-align: center;
+    margin: 1em 0 0 0;
+    display: block;
+}
+
+form input {
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+iframe {
+    text-align: center;
+}
+.youtube {
+    text-align: center;
+}
+.imginfo {
+    margin: 0 0 0 0;
+    display: block;
+    width: 100%;
+    height: 250px;
+    background: url(imagenes/carrou\ 2.jpg);
+  
+}
+.color {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.5;
+}
+.continfo {
+    width: 100%;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.continfo dl {
+    margin: 0 0 0 30%;
+}
+.continfo dt {
+    margin: 0 0 0 30%;
+}
+.continfo dd {
+    margin: 0 0 0 30%;
+}
+.continfo h1 {
+text-align: center;
+}
+.valores {
+
+}
+footer {display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+footer ul {
+    list-style: none;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+  .continfo {
+    height: 100%;
+  }
+  }
+    
